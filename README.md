@@ -1,0 +1,1 @@
+# stratpoint-typescript-workshop
