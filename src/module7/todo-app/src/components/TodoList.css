@@ -1,0 +1,16 @@
+.todo-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .todo-list th, .todo-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .todo-list th {
+    background-color: #f4f4f4;
+  }
+
+  

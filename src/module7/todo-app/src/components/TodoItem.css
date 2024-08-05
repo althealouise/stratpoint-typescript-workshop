@@ -1,0 +1,34 @@
+.todo-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-item td {
+    padding: 10px;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  .todo-item button {
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+
+  .text-high {
+    color: #d9534f; /* Red for high priority */
+  }
+
+  .text-medium {
+    color: #f0ad4e; /* Yellow for medium priority */
+  }
+
+  .text-low {
+    color: #0275d8; /* Blue for low priority */
+  }
+
+  

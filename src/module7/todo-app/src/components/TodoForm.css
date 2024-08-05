@@ -1,0 +1,45 @@
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .todo-form input, .todo-form textarea, .todo-form select, .todo-form button {
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .todo-form button {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 3px;
+  }
+
+  form select {
+    font-family: Arial, sans-serif; /* Ensure consistency in font family */
+    font-size: 16px; /* Match font size with other form fields */
+    padding: 8px; /* Add padding for better spacing */
+    border: 1px solid #ccc; /* Lighter border color */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #fff; /* White background color */
+    color: #333; /* Text color */
+  }
+
+
+  form input[type="text"],
+  form textarea,
+  form input[type="date"] {
+    font-family: Arial, sans-serif; /* Ensure consistency across all fields */
+    font-size: 16px; /* Same font size for all */
+    padding: 8px; /* Consistent padding */
+    margin-bottom: 12px; /* Space between fields */
+    border: 1px solid #ccc; /* Border for better visibility */
+    border-radius: 4px; /* Rounded corners for input fields */
+  }
